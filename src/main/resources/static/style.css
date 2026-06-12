@@ -1,0 +1,101 @@
+/* ========================================
+   Global Styles
+======================================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    display: grid;
+    place-items: center;
+}
+
+/* ========================================
+   Registration Form Container
+======================================== */
+.registration-container {
+    width: 350px;
+    padding: 30px;
+    margin: 5px 0;
+    min-height: 380px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ========================================
+   Confirmation Container
+======================================== */
+.confirmation-container {
+    width: 350px;
+    padding: 30px;
+    min-height: 300px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    display: grid;
+    justify-items: center;
+}
+
+/* ========================================
+   Typography & Links
+======================================== */
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: 600;
+    color: #334e68;
+    line-height: 1.5em;
+}
+
+/* ========================================
+   Form Inputs
+======================================== */
+input, select {
+    width: calc(100% - 130px);
+    padding: 8px;
+    height: 30px;
+    margin-bottom: 13px;
+    border-radius: 6px;
+    border: 1px solid #bcccdc;
+}
+
+/* ========================================
+   Form Row (Label + Input)
+======================================== */
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* ========================================
+   Buttons
+======================================== */
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: lightcyan;
+    color: black;
+    border: 1px solid cornflowerblue;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b3e5fc;
+}
