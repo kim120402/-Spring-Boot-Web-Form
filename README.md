@@ -41,3 +41,6 @@ src
 
 ```bash
 mvn spring-boot:run
+
+```Local Host
+http://localhost:8080/register
