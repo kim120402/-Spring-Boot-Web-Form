@@ -15,21 +15,20 @@ This is a simple Spring Boot web application that allows students to register fo
 ## Project Structure
 src
 └── main
-├── java
-│ └── com.example.assignment1
-│ ├── Assignment1Application.java
-│ ├── controller
-│ │ └── RegistrationController.java
-│ └── model
-│ └── Student.java
-└── resources
-├── static
-│ └── style.css
-├── templates
-│ ├── register.html
-│ └── confirmation.html
-└── application.properties
-
+    ├── java
+    │   └── com.example.assignment1
+    │       ├── Assignment1Application.java
+    │       ├── controller
+    │       │   └── RegistrationController.java
+    │       └── model
+    │           └── Student.java
+    └── resources
+        ├── static
+        │   └── style.css
+        ├── templates
+        │   ├── register.html
+        │   └── confirmation.html
+        └── application.properties
 
 ---
 
@@ -41,8 +40,3 @@ src
 
 ```bash
 mvn spring-boot:run
-
----
-
-## Local Host
-http://localhost:8080/register
